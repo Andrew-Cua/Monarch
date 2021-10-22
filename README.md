@@ -12,6 +12,9 @@ Below will be the design documents that I made in figma, for the most part the d
 
 
 
+## Dashboard
+
+![Dashboard](https://github.com/Andrew-Cua/Monarch/blob/master/buildDocs/dashboard.png)
 
 
 First up is the dashboard itself, on the side there is simple navigation bar H goes to the dashboard, P goes to a list of printers, and I goes to a list of printables. 
@@ -26,12 +29,7 @@ The second row is a 2-column list of the most recently uploaded printables, its 
 
 ## Printer Page
 
-
-
-
-
-
-
+![Printers](https://github.com/Andrew-Cua/Monarch/blob/master/buildDocs/printers.png)
 
 As you can see the printer page would just be a list of the printers in the database. On this page users could also control the printers is a very rudimentary way. (probably just small x,y,z jogs, along with heating setpoints) This is also where users would add extra printers to the database. 
 
@@ -42,13 +40,6 @@ As you can see the printer page would just be a list of the printers in the data
 
 ## Printables Page
 
-
-
-
-
-
-
-
-
+![Printers](https://github.com/Andrew-Cua/Monarch/blob/master/buildDocs/printables.png)
 
 There isn't a whole lot on this page, it really just servers as a way for users to add more printables (as gcode) into the file system. While octoprint does allow for apps to upload actual stls, I wouldn't want a raspberry pi to be slicing my models. Aside from that there is more information about the printables available on this page, in this case materials usage in meters and the Time 2 Print in hours. 
